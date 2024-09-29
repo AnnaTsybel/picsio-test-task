@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { Suspense } from 'react';
 import { SkeletonTheme } from 'react-loading-skeleton';
 
@@ -12,11 +12,11 @@ const App = () => {
         <SkeletonTheme baseColor="#fff" highlightColor="#9f9f9f">
             <ToastNotification />
             <Modal />
-            <BrowserRouter basename="/">
+            <HashRouter>
                 <Suspense fallback={<div>Loading...</div>}>
                     <Routes />
                 </Suspense>
-            </BrowserRouter >
+            </HashRouter>
         </SkeletonTheme>
     );
 };
