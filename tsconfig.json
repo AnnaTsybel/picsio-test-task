@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "baseUrl": ".",
-    "types": ["node", "jest", "@testing-library/jest-dom"],
+    "types": ["node",],
     "paths": {
       "@/*": [
         "./src/*"
