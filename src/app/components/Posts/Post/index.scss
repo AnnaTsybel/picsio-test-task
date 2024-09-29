@@ -1,0 +1,56 @@
+@import '@/index.scss';
+
+.posts__item {
+    position: relative;
+    height: 220px;
+    border-radius: 16px;
+    padding: 20px 30px;
+    color: $text-color-primary;
+    background: $block-bg;
+    cursor: pointer;
+
+    &__title {
+        margin-bottom: 10px;
+        line-height: 20px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    &__text {
+        margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    &__delete {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    &__info {
+        position: absolute;
+        left: 30px;
+        bottom: 20px;
+        display: flex;
+        column-gap: 9px;
+
+        &__element {
+            display: flex;
+            align-items: flex-end;
+            column-gap: 7px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        &__icon {
+            height: 16px;
+            width: 16px;
+        }
+    }
+}

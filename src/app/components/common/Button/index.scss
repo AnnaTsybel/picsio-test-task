@@ -1,0 +1,15 @@
+@import '@/index.scss';
+
+.common-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 12px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    font-size: 16px;
+    background: $main-gradient-bg;
+    background: $main-gradient;
+    color: $text-color-primary;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+@import "@/index.scss";
+
+.create-post {
+    position: relative;
+    width: 569px;
+    padding: 48px 24px;
+    border-radius: 40px;
+    text-align: center;
+    background: $block-bg;
+
+    &__title {
+        margin-bottom: 40px;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    &__close {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+
+        img {
+            height: 36px;
+            width: 36px;
+        }
+    }
+}

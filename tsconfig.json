@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "baseUrl": ".",
+    "types": ["node", "jest", "@testing-library/jest-dom"],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@app/*": [
+        "./src/app/*"
+      ],
+      "@components/*": [
+        "./src/app/components/*"
+      ],
+      "@views/*": [
+        "./src/app/views/*"
+      ],
+      "@static/*": [
+        "./src/app/static/*"
+      ],
+      "@utils/*": [
+        "./src/app/utils/*"
+      ],
+      "@store/*": [
+        "./src/app/store/*"
+      ],
+      "@enteties/*": [
+        "./src/enteties/*"
+      ]
+    },
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "exclude": [
+    "src/**/*.test.ts"
+  ],
+  "include": [
+    "src",
+    "vite.config.ts",
+    "jest.config.ts"
+  ]
+}

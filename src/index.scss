@@ -1,0 +1,12 @@
+@import "./app/static/styles/reset";
+@import "./app/static/styles/typography";
+@import "./app/static/styles/variables";
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+
+:root {
+  --toastify-toast-max-height: 80px;
+}

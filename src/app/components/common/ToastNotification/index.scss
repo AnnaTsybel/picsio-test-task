@@ -1,0 +1,9 @@
+@import "react-toastify/dist/ReactToastify.min.css";
+@import "@/index.scss";
+
+.Toastify__toast {
+    padding: 15px 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    background: $block-bg;
+    color: $text-color-primary;
+}

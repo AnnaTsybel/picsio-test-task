@@ -1,0 +1,21 @@
+{
+    "numbers": {
+        "ZERO_NUMBER": 0,
+        "ONE_NUMBER": 1,
+        "TWO_NUMBER": 2,
+        "THREE_NUMBER": 3,
+        "FOUR_NUMBER": 4,
+        "FIVE_NUMBER": 5,
+        "SIX_NUMBER": 6,
+        "AMOUNT_ON_PAGE": 9,
+        "TEN_NUMBER": 10,
+        "MAX_HOURS_AMOUNT": 24,
+        "TWENTY_FIVE_NUMBER": 25,
+        "THIRTY_NUMBER": 30,
+        "FIFTY_NUMBER": 50,
+        "ONE_HUNDRED_NUMBER": 100
+    },
+    "paginationLimits":{
+        "POSTS": 5
+    }
+}
