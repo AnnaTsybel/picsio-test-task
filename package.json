@@ -17,11 +17,9 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "2.2.7",
-    "@testing-library/dom": "^10.4.0",
-    "@testing-library/react": "^16.0.1",
     "@typescript-eslint/eslint-plugin": "8.7.0",
     "@typescript-eslint/parser": "8.7.0",
-    "effect": "^3.8.4",
+    "effect": "3.8.4",
     "eslint-plugin-import": "2.30.0",
     "eslint-plugin-unicorn": "55.0.0",
     "react": "18.3.1",
@@ -35,7 +33,7 @@
     "vite-plugin-compression": "0.5.1"
   },
   "devDependencies": {
-    "@types/node": "^22.7.4",
+    "@types/node": "22.7.4",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@typescript-eslint/eslint-plugin": "8.7.0",
@@ -47,6 +45,6 @@
     "eslint-plugin-unicorn": "55.0.0",
     "globals": "15.9.0",
     "typescript": "5.5.3",
-    "vite": "^5.4.8"
+    "vite": "5.4.8"
   }
 }
