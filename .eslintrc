@@ -32,31 +32,6 @@
                 "default": "array-simple"
             }
         ],
-        "@typescript-eslint/indent": [
-            "error",
-            4,
-            {
-                "FunctionDeclaration": {
-                    "parameters": "first"
-                },
-                "FunctionExpression": {
-                    "parameters": "first"
-                }
-            }
-        ],
-        "@typescript-eslint/member-delimiter-style": [
-            "warn",
-            {
-                "multiline": {
-                    "delimiter": "semi",
-                    "requireLast": true
-                },
-                "singleline": {
-                    "delimiter": "semi",
-                    "requireLast": false
-                }
-            }
-        ],
         "@typescript-eslint/naming-convention": [
             "warn",
             {
@@ -72,15 +47,7 @@
         "@typescript-eslint/no-empty-function": "warn",
         "@typescript-eslint/no-misused-new": "error",
         "@typescript-eslint/no-unnecessary-boolean-literal-compare": "warn",
-        "@typescript-eslint/quotes": [
-            "error",
-            "single",
-            {
-                "avoidEscape": true
-            }
-        ],
         "@typescript-eslint/require-await": "error",
-        "@typescript-eslint/semi": ["warn", "always"],
         "comma-dangle": ["error", "always-multiline"],
         "constructor-super": "off",
         "import/no-default-export": "off",
