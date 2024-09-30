@@ -1,5 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 
+import { Post } from '@/enteties/posts';
+
 import { useAppDispatch } from '@store/index';
 import { deletePost } from '@store/posts/actions';
 
@@ -7,8 +9,6 @@ import viewsIcon from '@static/images/viewsIcon.png';
 import likeIcon from '@static/images/likeIcon.png';
 import dislikeIcon from '@static/images/dislikeIcon.png';
 import deleteIcon from '@static/images/deleteIcon.png';
-
-import { Post } from '@/enteties/posts';
 
 import './index.scss';
 
@@ -28,7 +28,6 @@ export const PostItem: React.FC<{ post: Post }> = ({ post }) => {
             <button onClick={removePost} className="posts__item__delete">
                 <img className="posts__item__info__icon" src={deleteIcon} alt="delete" />
             </button>
-            <p className="posts__item__title">{post.userId}</p>
             <p className="posts__item__title">{post.title}</p>
             <p className="posts__item__text">{post.body}</p>
             <div className="posts__item__info">

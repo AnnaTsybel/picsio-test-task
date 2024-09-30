@@ -17,14 +17,13 @@
         font-weight: 400;
         box-shadow: $main-box-shadow;
         color: $text-color-primary;
-        background: $main-bg;
+        background: $block-bg;
 
         &::placeholder {
             font-size: 12px;
             font-weight: 600;
             line-height: 20px;
             color: #898989;
-            color: gray;
         }
     }
 

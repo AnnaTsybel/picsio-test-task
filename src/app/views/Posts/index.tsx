@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { unwrapResult } from '@reduxjs/toolkit';
 
 import { Post } from '@enteties/posts';
